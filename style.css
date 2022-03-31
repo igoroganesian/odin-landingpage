@@ -13,12 +13,12 @@ header, a, .hero, footer, .signup {
 /* HEADER */
 
 header {
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #1F2937;
-  max-width: 70%;
-  padding: 0 300px;
+  max-width: 60%;
+  padding: 0 450px;
 }
 
 header .logo {
@@ -41,14 +41,17 @@ a {
 .hero {
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 100px 200px;
-  max-width: 80%;
+}
+
+.herotest {
+  display: flex;
+  max-width: 70%
 }
 
 .heroleft {
-  max-width: 50%;
   flex: 1 1 0;
+  max-width: 50%;
   padding: 23px;
 }
 
